@@ -2,18 +2,21 @@
 #include "MinHeap.hpp"
 using namespace std;
 
-// Use a MinHeap to sort ascending
 template <typename T>
 void heapsort(vector<T>& arr) {
     MinHeap<T> h;
 
-    // TODO: Insert all elements into heap using sift-down insert from lecture
+    for (int i = 0; i < arr.size(); i++) {
+        h.insert(arr[i]);
+    }
 
-    // TODO: Repeatedly remove root and store back into array
+    for (int i = 0; i < arr.size(); i++) {
+        arr[i] = h.removeRoot();
+    }
 }
 
 int main() {
-    vector<int> arr = {5, 1, 9, 3, 7, 4};
+    vector<int> arr = { 5, 1, 9, 3, 7, 4 };
 
     heapsort(arr);
 

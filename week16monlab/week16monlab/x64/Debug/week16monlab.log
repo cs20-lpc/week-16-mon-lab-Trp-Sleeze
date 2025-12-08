@@ -1,0 +1,38 @@
+﻿  Week16Mon.cpp
+C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(40,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../Week16Mon.cpp')
+      C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(40,24):
+      the template instantiation context (the oldest one first) is
+          C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\Week16Mon.cpp(21,5):
+          see reference to function template instantiation 'void heapsort<int>(std::vector<int,std::allocator<int>> &)' being compiled
+          C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\Week16Mon.cpp(7,16):
+          see reference to class template instantiation 'MinHeap<int>' being compiled
+          C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(38,41):
+          while compiling class template member function 'void MinHeap<int>::insert(const T &)'
+          with
+          [
+              T=int
+          ]
+              C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\Week16Mon.cpp(10,17):
+              see the first reference to 'MinHeap<int>::insert' in 'heapsort'
+  
+C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(16,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../Week16Mon.cpp')
+      C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(16,11):
+      the template instantiation context (the oldest one first) is
+          C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(38,41):
+          while compiling class template member function 'void MinHeap<int>::insert(const T &)'
+          with
+          [
+              T=int
+          ]
+              C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\Week16Mon.cpp(10,17):
+              see the first reference to 'MinHeap<int>::insert' in 'heapsort'
+          C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(15,34):
+          while compiling class template member function 'void MinHeap<int>::siftDown(int)'
+              C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\MinHeap.tpp(53,17):
+              see the first reference to 'MinHeap<int>::siftDown' in 'MinHeap<int>::removeRoot'
+              C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\Week16Mon.cpp(14,16):
+              see the first reference to 'MinHeap<int>::removeRoot' in 'heapsort'
+  
+  week16monlab.vcxproj -> C:\Users\jahli\Documents\SchoolProjects\week-16-mon-lab-Trp-Sleeze\week16monlab\x64\Debug\week16monlab.exe
